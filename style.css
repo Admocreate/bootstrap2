@@ -1,0 +1,80 @@
+#top{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-img.jpg);
+    background-size: cover;
+    height: 90vh; 
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, #229ee6 25%, #067272 25%, #00fff5 50%,#444e4a 50%, #4b4b4b 75%, #00fff5 75%  ) 5;
+}
+/* ---navbar------ */
+.nav-item{
+    padding: 10px;
+    color: #fff;
+    
+}
+
+
+.navbar li a:link,
+.navbar li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 70%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.navbar li a:hover,
+.navbar li a:active{
+    border-top: 2px solid #229ee6;
+}
+
+/* ---hero section------- */
+.first-h1:after {
+    content: "";
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-bottom:4px solid #229ee6;
+}
+
+
+.form-section{
+    padding-top: 150px;
+
+}
+
+.checkbox select[name="location"] {
+    padding: 5px;
+    width: 200px;
+    margin-left: 250px;
+    border-radius: 2px;
+}
+/* ------footer------ */
+.main-footer{
+    background-color: #000;
+     color: #fff;
+     height: 250px;
+     padding-top: 100px;
+     text-align: center;
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     border-top: 4px solid;
+     border-image: linear-gradient(to right, #229ee6 25%, #067272 25%, #00fff5 50%,#444e4a 50%, #4b4b4b 75%, #00fff5 75%  ) 5; 
+ }
+ 
+ .main-footer input[type="subscribe"]{
+     width: 340px;
+     height:10px;
+     padding: 20px;
+     border-radius: 5px;
+     border-color: #229ee6; 
+     background-color: #000;
+ }
+ 
+ .main-footer i {
+     margin-left: -40px;
+     color: #229ee6;
+    
+ }
+ 
